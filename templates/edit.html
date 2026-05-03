@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Expense</title>
+</head>
+<body>
+
+<h1>Edit Expense</h1>
+
+<form method="POST" action="">
+    
+    <label>Amount:</label><br>
+    <input type="number" name="amount" value="{{ expense[1] }}" required><br><br>
+<!-- --------------------------------------------------------------- -->
+    <label>Category:</label><br>
+    <select name="category" required>
+    <option value="food" {% if expense[2]=='food' %}selected{% endif %}>Food</option>
+    <option value="transport" {% if expense[2]=='transport' %}selected{% endif %}>Transport</option>
+    <option value="personal" {% if expense[2]=='personal' %}selected{% endif %}>Personal</option>
+    <option value="other" {% if expense[2]=='other' %}selected{% endif %}>Other</option>
+</select><br><br>
+<!-- --------------------------------------------------------------- -->
+    <label>Date:</label><br>
+    <input type="date" name="date" value="{{ expense[3] }}" required><br><br>
+    <button type="submit">Update</button>
+
+</form>
+
+<a href="/">Back</a>
+
+</body>
+</html>
