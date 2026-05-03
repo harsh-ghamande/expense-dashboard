@@ -1,0 +1,64 @@
+# 💰 Expense Dashboard
+
+A clean and interactive web-based expense tracking dashboard built using Flask.
+
+## 🚀 Features
+
+* Add daily expenses with category and date
+* View total expenses and transaction count
+* Automatic top category detection
+* Visual breakdown using pie chart (Chart.js)
+* Filter and manage expense records
+* Clean modern UI
+
+## 🛠️ Tech Stack
+
+* Backend: Flask (Python)
+* Frontend: HTML, CSS
+* Charts: Chart.js
+* Database: SQLite
+
+## 📱 Live Demo
+
+👉 https://expense-dashboard.onrender.com
+
+## 📂 Project Structure
+
+```
+expense-tracker/
+│
+├── app.py
+├── database.db
+├── requirements.txt
+├── static/
+│   └── style.css
+├── templates/
+│   ├── index.html
+│   └── edit.html
+```
+
+## ⚠️ Note
+
+This project is hosted on Render free tier.
+Data may reset due to temporary storage.
+
+## 🎯 What I Learned
+
+* Flask backend development
+* Handling forms and routing
+* UI design and layout structuring
+* Chart integration with Chart.js
+* Debugging real-world issues
+* Git & GitHub workflow
+* Deploying web apps using Render
+
+## 📌 Future Improvements
+
+* User authentication system
+* Persistent database (PostgreSQL)
+* Advanced analytics (monthly/yearly)
+* Better mobile responsiveness
+
+---
+
+
