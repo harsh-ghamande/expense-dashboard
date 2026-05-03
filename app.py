@@ -127,4 +127,4 @@ def edit(id):
         print("EDIT POST HIT")
 # --------------------------------------------------------------------
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
